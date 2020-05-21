@@ -1,0 +1,47 @@
+﻿Assignment 3
+Task 2
+What is Branching?
+A branch represents an independent line of development. When you want to add a new feature or fix a bug—no matter how big or how small—you spawn a new branch to encapsulate your changes. This makes it harder for unstable code to get merged into the main code base, and it gives you the chance to clean up your future's history before merging it into the main branch.
+  
+
+
+
+
+
+What is Merging?
+Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches. 
+
+
+git merge takes two commit pointers, usually the branch tips, and will find a common base commit between them. Once Git finds a common base commit it will create a new "merge commit" that combines the changes of each queued merge commit sequence.
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+Task 3
+What is an Elastic IP and how it is different from Dynamic IP?
+When we are working on the machine we have an IP address for it but when we turn it off the IP address of that machine changes. Now, if we want to have the same IP address even after turning on the machine,  we need to use the Elastic IP which will keep the IP address the same all the time.  It is associated with your AWS account. 
+
+
+Dynamic IP is assigned to the machine by DHCP. You get different IP for every other instance unlike Elastic IP.
+
+
+
+
+What is the Client Server Model, Explain in detail?
+
+
+Client–server model is a distributed application structure that partitions tasks or workloads between the providers of a service, called servers, and service requesters, called clients.[1] Often clients and servers communicate over a computer network on separate hardware, but both client and server may reside in the same system. A server host runs one or more server programs, which share their resources with clients. A client does not share any of its resources, but it requests content or service from a server. Clients, therefore, initiate communication sessions with servers, which await incoming requests. 
+The client-server characteristic describes the relationship of cooperating programs in an application. The server component provides a function or service to one or many clients, which initiate requests for such services. Servers are classified by the services they provide. For example, a web server serves web pages and a file server serves computer files. 
+Whether a computer is a client, a server, or both, is determined by the nature of the application that requires the service functions. For example, a single computer can run a web servers and file server software at the same time to serve different data to clients making different kinds of requests. Client software can also communicate with server software within the same computer.
